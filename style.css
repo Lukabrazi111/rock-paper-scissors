@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .6rem;
+    margin-top: 4rem;
+}
+
+#opponent-choice {
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+#opponent-choice img {
+    width: 200px;
+    height: 200px;
+}
+
+#my-choice {
+    width: 200px;
+    height: 200px;
+    background: aquamarine;
+}
+
+#my-choice img {
+    width: 200px;
+    height: 200px;
+}
+
+#choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    background: bisque;
+}
+
+#choices button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#choices img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
